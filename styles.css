@@ -36,3 +36,13 @@ input {
 img {
 	max-width: 300px;
 }
+
+.box-1 {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.box-item {
+	display: flex;
+
+}

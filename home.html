@@ -1,42 +1,66 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <!-- Part 1, bullet 1, add 'Hello World'  -->
+      <p>Hello World</p>
 
-	<content>
-		<h1>Hello World.</h1>
-		<!-- insert hello world here -->
+      <img
+        src="https://images.pexels.com/photos/4587955/pexels-photo-4587955.jpeg?cs=srgb&dl=pexels-anna-shvets-4587955.jpg&fm=jpg"
+      />
+      <!-- Part 1, bullet 2, add a Welcome  -->
+      <p>Welcome to our site</p>
+      <!-- Part 1, bullet 3, add a bulleted list  -->
+      <ul>
+        <li>You showed up...that's somehting.</li>
+        <li>Knowlege is power and you just became more powerful</li>
+        <li>All coding and no play makes David a dull bot</li>
+        <li>All coding and no play makes David a dull bot</li>
+        <li>All coding and no play makes David a dull bot</li>
+        <li>All coding and no play makes David a dull bot</li>
+      </ul>
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
 
-		<img src="https://images.pexels.com/photos/4587955/pexels-photo-4587955.jpeg?cs=srgb&dl=pexels-anna-shvets-4587955.jpg&fm=jpg">
+        Message:
+        <input type="textarea" />
 
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
+        <input type="submit" />
+        <!-- Part 1, bullet 4 - add to form   -->
+        <!-- Maybe this should be a radiop button with single selection   -->
+        <p>How did you hear about us?</p>
+        <div class="box-1">
+          <div class = "box-item">
+            <input type="checkbox" id="opt1" name="site" value="google" />
+            <label for="op1"> Google</label>
+          </div>
+          <div class = "box-item">
+            <input type="checkbox" id="op2" name="firend" value="friend" />
+            <label for="op2"> From a friend</label>
+          </div>
+          <div class = "box-item">
+            <input type="checkbox" id="opt3" name="other" value="other" />
+            <label for="opt3"> Other</label>
+          </div>
+        </div>
+      </form>
+    </content>
 
-			Message:
-			<input type="textarea">
-
-			<input type="submit">
-
-
-		</form>
-
-	</content>
-
-
-	<script src="about.js"></script>
-
-</body>
+    <script src="about.js"></script>
+  </body>
 </html>
