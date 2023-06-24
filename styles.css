@@ -8,41 +8,47 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid orange;
+  border-bottom: 2px solid orange;
 }
 
 ol {
-	padding-left: 0;
+  padding-left: 0;
 }
-
+ul {
+	list-style-type: square;
+}
 .crumb {
-	margin-right: 2em;
-	display: inline;
+  margin-right: 2em;
+  display: inline;
 }
 
 a {
-	color: orange;
+  color: orange;
 }
 
 a:visited {
-	color: crimson;
+  color: crimson;
 }
 
-
 input {
-	display: block;
+  display: block;
 }
 
 img {
-	max-width: 300px;
+  max-width: 300px;
 }
 
 .box-1 {
-	display: flex;
-	justify-content: space-evenly;
-
+  display: flex;
+  justify-content: space-evenly;
 }
 .box-item {
-	display: flex;
+  display: flex;
 
+}
+.caption {
+  font-family: "Lucida Console";
+  font-size: 8pt;
+margin-left: 10px;
+font-style: italic;
 }
