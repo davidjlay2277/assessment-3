@@ -15,7 +15,7 @@ ol {
   padding-left: 0;
 }
 ul {
-	list-style-type: square;
+  list-style-type: square;
 }
 .crumb {
   margin-right: 2em;
@@ -44,11 +44,52 @@ img {
 }
 .box-item {
   display: flex;
-
 }
 .caption {
   font-family: "Lucida Console";
   font-size: 8pt;
-margin-left: 10px;
-font-style: italic;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.top {
+  display: flex;
+  border-style: groove;
+  margin-top: 20px;
+}
+
+.photo {
+  border-radius: 50%;
+  padding: 0px;
+  margin: 10px;
+  border: 2px;
+}
+
+.name {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: 15px;
+  margin: 0px;
+}
+
+.role {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13pt;
+
+  padding-left: 12px;
+  padding-top: 75px;
+}
+
+.profile-stuff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
